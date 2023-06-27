@@ -1,0 +1,21 @@
+[INFO] 2023-05-27 10:33:50 GMT-04: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'livros' AND TABLE_SCHEMA = 'biblioteca_db'
+[INFO] 2023-05-27 10:33:50 GMT-04: Executing (default): SHOW INDEX FROM `livros`
+[INFO] 2023-05-27 10:33:50 GMT-04: SERVIDOR RODANDO VIOLENTAMENTE NA PORTA 4444.
+[INFO] 2023-05-27 14:33:02 GMT-04: GET /api 200 3ms.
+[INFO] 2023-05-27 14:33:15 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro`;
+[INFO] 2023-05-27 14:33:15 GMT-04: GET /api/livros 200 21ms.
+[INFO] 2023-05-27 14:38:37 GMT-04: GET /api/ 200 1ms.
+[INFO] 2023-05-27 14:38:37 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro`;
+[INFO] 2023-05-27 14:38:37 GMT-04: GET /api/livros 304 20ms.
+[INFO] 2023-05-27 14:39:32 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro` WHERE `Livro`.`id` = 'fbf449f6-3070-4b12-bc4f-7007bfdd7a27';
+[INFO] 2023-05-27 14:39:52 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro` WHERE `Livro`.`id` = '5d2facb8-9351-4b40-a73d-7fd28d4a7e96';
+[INFO] 2023-05-27 14:40:13 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro` WHERE `Livro`.`id` = '945f2458-f2b4-4bd9-9b34-99a82a767b9c';
+[INFO] 2023-05-27 14:40:13 GMT-04: Executing (default): INSERT INTO `livros` (`id`,`nome`,`sinopse`,`isbn`,`url_imagem`,`autores`) VALUES (?,?,?,?,?,?);
+[INFO] 2023-05-27 14:40:13 GMT-04: POST /api/livros 201 73ms.
+[INFO] 2023-05-27 14:40:13 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro`;
+[INFO] 2023-05-27 14:40:13 GMT-04: GET /api/livros 200 4ms.
+[INFO] 2023-05-27 14:40:17 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro` WHERE `Livro`.`isbn` = '1212121212121';
+[INFO] 2023-05-27 14:40:17 GMT-04: GET /api/livros/1212121212121 200 25ms.
+[INFO] 2023-05-27 14:40:22 GMT-04: Executing (default): SELECT `id`, `nome`, `sinopse`, `isbn`, `url_imagem` AS `urlImagem`, `autores` FROM `livros` AS `Livro`;
+[INFO] 2023-05-27 14:40:22 GMT-04: GET /api/ 304 1ms.
+[INFO] 2023-05-27 14:40:22 GMT-04: GET /api/livros 304 6ms.

@@ -1,0 +1,14 @@
+[ERROR] 2023-05-27 10:34:38 GMT-04: GET / 404 8ms.
+[ERROR] 2023-05-27 10:34:38 GMT-04: GET /favicon.ico 404 1ms.
+[ERROR] 2023-05-27 10:36:32 GMT-04: GET /livros 404 1ms.
+[ERROR] 2023-05-27 10:38:51 GMT-04: GET /livros 404 2ms.
+[ERROR] 2023-05-27 10:38:56 GMT-04: GET / 404 1ms.
+[ERROR] 2023-05-27 10:39:18 GMT-04: GET / 404 1ms.
+[ERROR] 2023-05-27 14:39:32 GMT-04: Há valores inválidos em alguns campos.
+[ERROR] 2023-05-27 14:39:32 GMT-04: {"nome":"O nome do livro deve ter entre 20 e 180 caracteres."}
+[ERROR] 2023-05-27 14:39:32 GMT-04: Exceção lançada na rota POST /api/livros: Há valores inválidos em alguns campos.
+[ERROR] 2023-05-27 14:39:32 GMT-04: POST /api/livros 422 49ms.
+[ERROR] 2023-05-27 14:39:52 GMT-04: Há valores inválidos em alguns campos.
+[ERROR] 2023-05-27 14:39:52 GMT-04: {"nome":"O nome do livro deve ter entre 20 e 180 caracteres."}
+[ERROR] 2023-05-27 14:39:52 GMT-04: Exceção lançada na rota POST /api/livros: Há valores inválidos em alguns campos.
+[ERROR] 2023-05-27 14:39:52 GMT-04: POST /api/livros 422 38ms.
